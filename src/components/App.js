@@ -1,11 +1,12 @@
-import './App.css';
+import '../css/App.css';
+import Home from './Home.js';
+import Header from './Header.js';
 
 function App() {
   return (
     <div className="app">
-      <h1>airbnb functionality</h1>
-
-    {/* Home component */}
+      <Header />
+      <Home /> 
       {/* header */}
 
       {/* banner */}
@@ -15,6 +16,7 @@ function App() {
       {/* footer */}
 
     {/* Search component */}
+
        
 
 
